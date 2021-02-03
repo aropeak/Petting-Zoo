@@ -14,7 +14,7 @@ int lightCal;     //Photoresistor Variable
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode (LED, OUTPUT);
+
   lightCal = analogRead(photoPin);
   pinMode(fan, OUTPUT);
 
